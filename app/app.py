@@ -21,6 +21,7 @@ app.add_middleware(
     CORSMiddleware,
      allow_origins=[
     "http://localhost:8080",
+    "https://samaconnect-learn-link.vercel.app",
     "https://regardless-responsibilities-lance-allows.trycloudflare.com",
     "http://localhost:3000",
     "http://localhost:8000",
