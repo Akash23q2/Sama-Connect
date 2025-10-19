@@ -2,6 +2,12 @@
 
 Lightweight full-stack MVP for live, link-based classroom meetings.
 
+Try it: https://samaconnect-learn-link.vercel.app  (frontend deployed on Vercel; backend hosted on Render — free-tier instances may be slow to wake)
+--------
+Note: please sign up first, then log in to access the dashboard and create or join classes. 
+
+- Joining through link doesnt work on vercel but will work on self deployed servers.
+
 Overview
 --------
 SamaConnect is a small FastAPI + React app that demonstrates the core features of a video-class platform:
@@ -55,6 +61,7 @@ Important API endpoints
 - POST /meet/room/{room_id}/join — join a room (returns embed_url)
 - POST /meet/room/{room_id}/leave — leave a room
 - POST /meet/room/{room_id}/end — end a meeting (host only)
+
 
 Database (summary)
 ------------------
