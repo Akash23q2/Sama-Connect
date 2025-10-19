@@ -1,0 +1,17 @@
+[project]
+name = "sama-connect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.119.0",
+    "jinja2>=3.1.6",
+    "jwt>=1.4.0",
+    "psycopg2>=2.9.11",
+    "pwdlib[argon2]>=0.2.1",
+    "pyjwt==2.10.1",
+    "sqlalchemy>=2.0.44",
+    "websockets>=15.0.1",
+]
